@@ -408,13 +408,13 @@
 
 #top-banner-wrapper .item-band {
     background-image: url("/images/music_band_1.jpg");
-    background-position: -200px center;
+    background-position: center -20px;
 }
 #top-banner-wrapper .item-market {
     background-image: url("/images/vlooienmarkt_2.jpg");
-    background-position: -200px center;
+    background-position: center center;
 }
-#top-banner-wrapper .item-cv2 {
-    background-image: url("/images/citroen_2cv.jpg");
-    background-position: -200px center;
+#top-banner-wrapper .item-triathlon {
+    background-image: url("/images/triathlon_1.jpg");
+    background-position: center -50px;
 }
