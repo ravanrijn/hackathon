@@ -356,6 +356,7 @@
     background-color: transparent;
     background-position: top center;
     background-repeat: no-repeat;
+    border: 1px solid #b1c4df;
 }
 
 #top-banner-wrapper .item-content {
@@ -368,6 +369,32 @@
 }
 #top-banner-wrapper .item-content * {
     z-index: 2;
+    position: relative;
+}
+#top-banner-wrapper .item-content .mp-groups {
+    padding-left: 20px;
+    background: transparent url("/images/marktplaats-logo.png") no-repeat left center;
+    text-transform: uppercase;
+    color: #21479c;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+#top-banner-wrapper .item-content .text {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 2em;
+}
+#top-banner-wrapper .item-content .text .heading{
+    text-transform: uppercase;
+}
+#top-banner-wrapper .item-content button {
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+    bottom: 40px;
 }
 #top-banner-wrapper .item-content .bkg {
     width: 100%;
@@ -377,7 +404,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
 }
 
 #top-banner-wrapper .item-band {
