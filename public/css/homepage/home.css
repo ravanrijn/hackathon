@@ -342,3 +342,53 @@
     width: 100%;
     height: 100%
 }
+
+#top-banner-wrapper {
+    width: 980px;
+    height: 300px;
+    margin-bottom: 20px;
+    float: none;
+}
+
+#top-banner-wrapper .item {
+    width: 980px;
+    height: 300px;
+    background-color: transparent;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#top-banner-wrapper .item-content {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    float: left;
+    z-index: 100;
+    padding: 10px;
+}
+#top-banner-wrapper .item-content * {
+    z-index: 2;
+}
+#top-banner-wrapper .item-content .bkg {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: .9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#top-banner-wrapper .item-band {
+    background-image: url("/images/music_band_1.jpg");
+    background-position: -200px center;
+}
+#top-banner-wrapper .item-market {
+    background-image: url("/images/vlooienmarkt_2.jpg");
+    background-position: -200px center;
+}
+#top-banner-wrapper .item-cv2 {
+    background-image: url("/images/citroen_2cv.jpg");
+    background-position: -200px center;
+}
