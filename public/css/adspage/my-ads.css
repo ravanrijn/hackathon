@@ -1818,3 +1818,36 @@ span.item-heading.upcall-info span {
   padding: 3px;
   color: #fff;
 }
+
+.groups-ad {
+  font-size: 0.813em;
+  line-height: 1.2em;
+}
+
+.groups-ad p{
+  margin-bottom: 15px;
+}
+
+.groups-ad table {
+  width: 100%;
+}
+.groups-ad th {
+  text-align: center;
+  border-bottom: 2px solid #b1c4df;
+}
+.groups-ad td {
+  text-align: center;
+}
+
+.groups-ad th:first-child, .groups-ad td:first-child {
+  text-align: left;
+  width: 70%;
+}
+
+.groups-ad table, .groups-ad th, .groups-ad td {
+  border-collapse: collapse;
+  padding: 5px;
+}
+.groups-ad .button-group {
+  margin-top: 20px;
+}

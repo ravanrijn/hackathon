@@ -53,6 +53,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/adspage/mymp.css">
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/adspage/my-ads.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox.css">
+
+
+    <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="/js/profile.js"></script>
 </head>
 
 
@@ -410,7 +416,7 @@
                                         <div id="feature-active-labels">
                                         </div>
                                         <div id="groups">
-                                          <a>Triathlon Enthusiasts</a> <a>Watch Lovers</a>
+                                          <a href="#groups-ad1" class="fancybox">Triathlon Enthusiasts</a> <a href="group-ad1" class="fancybox">Watch Lovers</a>
                                         </div>
                                     </div>
                                     <div class="cell price-column" id="price-column-926804976"><span class="price">€&nbsp;100,00</span>
@@ -549,7 +555,7 @@
                                         </a></div>
                                         <div id="feature-active-labels"></div>
                                         <div id="groups">
-                                          <a>Triathlon Enthusiasts</a>
+                                          <a href="#groups-ad2" class="fancybox">Triathlon Enthusiasts</a>
                                         </div>
                                     </div>
                                     <div class="cell price-column" id="price-column-926803580"><span class="price">€&nbsp;100,00</span>
@@ -688,7 +694,7 @@
                                         </a></div>
                                         <div id="feature-active-labels"></div>
                                         <div id="groups">
-                                          <a class="no-group">Aan groep toevoegen</a>
+                                          <a href="#groups-ad3" class="no-group fancybox">Aan groep toevoegen</a>
                                         </div>
                                     </div>
                                     <div class="cell price-column" id="price-column-926802044"><span class="price">€&nbsp;100,00</span>
@@ -1138,6 +1144,94 @@
 <div class="tooltip info tooltip-in-dialog" style="display: none;">U bepaalt zelf vanaf welk bedrag biedingen mogen
     starten.
 </div>
+<div id="groups-ad1" class="groups-ad" style="width:400px; display: none;">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat nisl dolor, non facilisis dolor lobortis eget. Aliquam rhoncus congue rutrum.</p>
+    <div>
+        <table cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <th>Groep naam</th>
+                <th>Lidmaatschap</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Triathlon Enthusiasts</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            <tr>
+                <td>Watch Enthusiasts</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="button-group">
+        <a href="#"
+           class="button primary medium"><span>Opslaan</span></a>
+        <a href="#"
+           class="button secondary medium"><span>Annuleren</span></a>
+    </div>
+</div>
 
+<div id="groups-ad2" class="groups-ad" style="width:400px; display: none;">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat nisl dolor, non facilisis dolor lobortis eget. Aliquam rhoncus congue rutrum.</p>
+    <div>
+        <table cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <th>Groep naam</th>
+                <th>Lidmaatschap</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Triathlon Enthusiasts</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            <tr>
+                <td>Watch Enthusiasts</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="button-group">
+        <a href="#"
+           class="button primary medium"><span>Opslaan</span></a>
+        <a href="#"
+           class="button secondary medium"><span>Annuleren</span></a>
+    </div>
+</div>
+
+<div id="groups-ad3" class="groups-ad" style="width:400px; display: none;">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat nisl dolor, non facilisis dolor lobortis eget. Aliquam rhoncus congue rutrum.</p>
+    <div>
+        <table cellpadding="0" cellspacing="0">
+            <thead>
+            <tr>
+                <th>Groep naam</th>
+                <th>Lidmaatschap</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Triathlon Enthusiasts</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            <tr>
+                <td>Watch Enthusiasts</td>
+                <td><input type="checkbox" /></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="button-group">
+        <a href="#"
+           class="button primary medium"><span>Opslaan</span></a>
+        <a href="#"
+           class="button secondary medium"><span>Annuleren</span></a>
+    </div>
+</div>
 </body>
 </html>
