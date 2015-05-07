@@ -61,6 +61,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/grouppage/global.css">
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/grouppage/soi.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grouppage2/style.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.fancybox.css">
+
+
+    <script type="text/javascript" src="/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="/js/grouppage-2.js"></script>
+
 </head>
 
 
@@ -477,7 +486,7 @@
             <div class="profile-info">
                 <div id="profile-information" class="profile-details" style="width:500px">
                     <span id="profile-information-active-since" style="font-size: 20px;">6 leden</span>
-                    <span id="profile-information-location"><a href="#groups-ad1" class="juiceless-link button primary medium" style="font-size: 20px;">Aanmelden</a></span>
+                    <span id="profile-information-location"><a href="#groups-join-accept" class="fancybox button primary medium" style="font-size: 20px;">Aanmelden</a></span>
                     <span></span>
 
                 </div>
@@ -11587,6 +11596,12 @@
 <!-- uniqueId: 57a9ad74-2037-4004-b4ef-884ce08d141b -->
 
 <span id="search-timestamp">1430983619515</span>
-
+<div id="groups-join-accept" style="width:400px; display: none;">
+    <p>Your request to join has been sent to the group admin. While you wait for the approval, please make sure that you <a href="/profilepage.html">fill in your profile details.</a></p>
+    <div class="button-group">
+        <a href="#"
+           class="button primary medium"><span>Sluiten</span></a>
+    </div>
+</div>
 </body>
 </html>
