@@ -53,9 +53,12 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="/css/profilepage/profile.css">
 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox.css">
 
 
-
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/profile.js"></script>
 
 </head>
 
@@ -468,8 +471,8 @@
                         </div>
 
 
-                        <a href="/mygroups.html"
-                           class="button secondary medium  "><span>Beheren lidmaatschap</span></a>
+                        <a href="#groups-member"
+                           class="button secondary medium fancybox"><span>Beheren lidmaatschap</span></a>
 
 
                     </div>
@@ -535,7 +538,35 @@
     </div>
 </footer>
 
-
+<div id="groups-member" style="width:400px; display: none;">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat nisl dolor, non facilisis dolor lobortis eget. Aliquam rhoncus congue rutrum.</p>
+    <div>
+        <table cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Groep naam</th>
+                    <th>Lidmaatschap</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Triathlon Enthusiasts</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            <tr>
+                <td>Watch Enthusiasts</td>
+                <td><input type="checkbox" checked="checked" /></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="button-group">
+        <a href="#"
+           class="button primary medium"><span>Opslaan</span></a>
+        <a href="#"
+           class="button secondary medium"><span>Annuleren</span></a>
+    </div>
+</div>
 <!-- uniqueId: fad9d437-9da8-4541-88ed-4b854d470ab0 -->
 </body>
 </html>
