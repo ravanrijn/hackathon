@@ -718,7 +718,7 @@ ul.bulleted span {
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 20px;
-    background-image: url('/aurora/res/images/sprites/tns_white_small.png');
+    background-image: url('images/homepage/tns_white_small.png');
     background-position: left top;
     background-repeat: no-repeat;
     padding: 5px 0 30px 40px
@@ -908,8 +908,8 @@ input.error-focus {
 
 @font-face {
     font-family: "marktplaats-icons";
-    src: url("/aurora/res/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.eot");
-    src: url("/aurora/res/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.eot?#iefix") format("embedded-opentype"), url("/aurora/res/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.woff") format("woff"), url("/aurora/res/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.ttf") format("truetype"), url("/aurora/res/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.svg?#marktplaats-icons") format("svg");
+    src: url("/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.eot");
+    src: url("/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.eot?#iefix") format("embedded-opentype"), url("/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.woff") format("woff"), url("/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.ttf") format("truetype"), url("/fonts/marktplaats-icons-f6f1509dd65c0afed3ce6f31f464b83d.svg?#marktplaats-icons") format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -1217,123 +1217,123 @@ input.error-focus {
 }
 
 .sprite.ads-next {
-    background-image: url(/aurora/res/images/sprites/ads-next.png)
+    background-image: url(images/homepage/ads-next.png)
 }
 
 .sprite.ads-previous {
-    background-image: url(/aurora/res/images/sprites/ads-previous.png)
+    background-image: url(images/homepage/ads-previous.png)
 }
 
 .sprite.arrow-down-inactive {
-    background-image: url(/aurora/res/images/sprites/arrows/down-inactive.png)
+    background-image: url(images/homepage/arrows/down-inactive.png)
 }
 
 .sprite.arrow-down-link {
-    background-image: url(/aurora/res/images/sprites/arrows/down-link.png)
+    background-image: url(images/homepage/arrows/down-link.png)
 }
 
 .sprite.arrow-down {
-    background-image: url(/aurora/res/images/sprites/arrows/down.png)
+    background-image: url(images/homepage/arrows/down.png)
 }
 
 .sprite.arrow-left-inactive {
-    background-image: url(/aurora/res/images/sprites/arrows/left-inactive.png)
+    background-image: url(images/homepage/arrows/left-inactive.png)
 }
 
 .sprite.arrow-left-link {
-    background-image: url(/aurora/res/images/sprites/arrows/left-link.png)
+    background-image: url(images/homepage/arrows/left-link.png)
 }
 
 .sprite.arrow-left {
-    background-image: url(/aurora/res/images/sprites/arrows/left.png)
+    background-image: url(images/homepage/arrows/left.png)
 }
 
 .sprite.arrow-next {
-    background-image: url(/aurora/res/images/sprites/arrows/next.png)
+    background-image: url(images/homepage/arrows/next.png)
 }
 
 .sprite.arrow-right-inactive {
-    background-image: url(/aurora/res/images/sprites/arrows/right-inactive.png)
+    background-image: url(images/homepage/arrows/right-inactive.png)
 }
 
 .sprite.arrow-right-link {
-    background-image: url(/aurora/res/images/sprites/arrows/right-link.png)
+    background-image: url(images/homepage/arrows/right-link.png)
 }
 
 .sprite.arrow-right {
-    background-image: url(/aurora/res/images/sprites/arrows/right.png)
+    background-image: url(images/homepage/arrows/right.png)
 }
 
 .sprite.arrow-up-inactive {
-    background-image: url(/aurora/res/images/sprites/arrows/up-inactive.png)
+    background-image: url(images/homepage/arrows/up-inactive.png)
 }
 
 .sprite.arrow-up-link {
-    background-image: url(/aurora/res/images/sprites/arrows/up-link.png)
+    background-image: url(images/homepage/arrows/up-link.png)
 }
 
 .sprite.arrow-up {
-    background-image: url(/aurora/res/images/sprites/arrows/up.png)
+    background-image: url(images/homepage/arrows/up.png)
 }
 
 .sprite.arrow-right-sub {
-    background-image: url(/aurora/res/images/sprites/arrows/sub-arrow-right.png)
+    background-image: url(images/homepage/arrows/sub-arrow-right.png)
 }
 
 .sprite.close {
-    background-image: url(/aurora/res/images/sprites/close.png)
+    background-image: url(images/homepage/close.png)
 }
 
 .sprite.collapse {
-    background-image: url(/aurora/res/images/sprites/collapse.gif)
+    background-image: url(images/homepage/collapse.gif)
 }
 
 .sprite.euro {
-    background-image: url(/aurora/res/images/sprites/euro.png)
+    background-image: url(images/homepage/euro.png)
 }
 
 .sprite.expand {
-    background-image: url(/aurora/res/images/sprites/expand.gif)
+    background-image: url(images/homepage/expand.gif)
 }
 
 .sprite.icon-warning {
-    background-image: url(/aurora/res/images/sprites/icons/icon_error.png)
+    background-image: url(images/homepage/icons/icon_error.png)
 }
 
 .sprite.icon-facebook {
-    background-image: url(/aurora/res/images/sprites/icons/facebook.png)
+    background-image: url(images/homepage/icons/facebook.png)
 }
 
 .sprite.icon-hyves {
-    background-image: url(/aurora/res/images/sprites/icons/hyves.png)
+    background-image: url(images/homepage/icons/hyves.png)
 }
 
 .sprite.icon-info {
-    background-image: url(/aurora/res/images/sprites/icons/info.png)
+    background-image: url(images/homepage/icons/info.png)
 }
 
 .sprite.icon-progress {
-    background-image: url(/aurora/res/images/sprites/icons/progress.gif)
+    background-image: url(images/homepage/icons/progress.gif)
 }
 
 .sprite.icon-success {
-    background-image: url(/aurora/res/images/sprites/icons/success.png)
+    background-image: url(images/homepage/icons/success.png)
 }
 
 .sprite.icon-twitter {
-    background-image: url(/aurora/res/images/sprites/icons/twitter.png)
+    background-image: url(images/homepage/icons/twitter.png)
 }
 
 .sprite.message-icon-error {
-    background-image: url(/aurora/res/images/sprites/error-info-success-new.png)
+    background-image: url(images/homepage/error-info-success-new.png)
 }
 
 .sprite.message-icon-info {
-    background-image: url(/aurora/res/images/sprites/error-info-success-new.png)
+    background-image: url(images/homepage/error-info-success-new.png)
 }
 
 .sprite.message-icon-success {
-    background-image: url(/aurora/res/images/sprites/error-info-success-new.png)
+    background-image: url(images/homepage/error-info-success-new.png)
 }
 
 .container {
@@ -1502,19 +1502,19 @@ input.error-focus {
 }
 
 .pagination-next span {
-    background: url(/aurora/res/images/sprites/arrows/right-link.png) no-repeat center
+    background: url(images/homepage/arrows/right-link.png) no-repeat center
 }
 
 .pagination-next.disabled span {
-    background: url(/aurora/res/images/sprites/arrows/right-inactive.png) no-repeat center
+    background: url(images/homepage/arrows/right-inactive.png) no-repeat center
 }
 
 .pagination-previous span {
-    background: url(/aurora/res/images/sprites/arrows/left-link.png) no-repeat center
+    background: url(images/homepage/arrows/left-link.png) no-repeat center
 }
 
 .pagination-previous.disabled span {
-    background: url(/aurora/res/images/sprites/arrows/left-inactive.png) no-repeat center
+    background: url(images/homepage/arrows/left-inactive.png) no-repeat center
 }
 
 #pagination {
@@ -2123,7 +2123,7 @@ input.button.large, button.button.large {
 }
 
 .carousel-container.empty .carousel-viewport {
-    background: url("/aurora/res/mp/themes/aurora/img/icon_loader_small.gif") no-repeat center center;
+    background: url("images/homepage/icon_loader_small.gif") no-repeat center center;
     border: 1px solid #b1c4df
 }
 
@@ -2188,11 +2188,11 @@ input.button.large, button.button.large {
 }
 
 .horizontal .icon span {
-    background-image: url("/aurora/res/mp/themes/aurora/img/sprite_arrows_horizontal.png")
+    background-image: url("images/homepage/sprite_arrows_horizontal.png")
 }
 
 .vertical .icon span {
-    background-image: url("/aurora/res/mp/themes/aurora/img/sprite_arrows_vertical.png")
+    background-image: url("images/homepage/sprite_arrows_vertical.png")
 }
 
 .horizontal .icon.carousel-button-previous span {
@@ -2334,7 +2334,7 @@ input.button.large, button.button.large {
     z-index: 500;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("/aurora/res/mp/themes/aurora/img/close.png")
+    background-image: url("images/homepage/close.png")
 }
 
 .dialog .content > .close:hover {
@@ -2474,7 +2474,7 @@ input.button.large, button.button.large {
     width: 21px;
     height: 100%;
     border-left: 1px solid #a1a1a1;
-    *background: url("/aurora/res/mp/themes/aurora/img/icon_sort_down.png") no-repeat center center
+    *background: url("images/homepage/icon_sort_down.png") no-repeat center center
 }
 
 .dropdown.custom.disabled .pointer {
@@ -2752,7 +2752,7 @@ input.button.large, button.button.large {
     border-color: #f1f4f8;
     padding-left: 18px;
     text-decoration: underline;
-    background: #f1f4f8 url("/aurora/res/mp/themes/aurora/img/icon_edit.png") no-repeat left center
+    background: #f1f4f8 url("images/homepage/icon_edit.png") no-repeat left center
 }
 
 .editable.disabled:hover .change-button {
@@ -2891,7 +2891,7 @@ input.button.large, button.button.large {
 
 .editable .success {
     border: 1px solid green;
-    background: #ebfbeb url("/aurora/res/mp/themes/aurora/img/icon_success_large.png") no-repeat 20px center;
+    background: #ebfbeb url("images/homepage/icon_success_large.png") no-repeat 20px center;
     min-height: 24px
 }
 
@@ -2940,15 +2940,15 @@ input.button.large, button.button.large {
 }
 
 .editable-price.error .input-wrapper {
-    background: url("/aurora/res/mp/themes/aurora/img/icon_error.png") no-repeat 206px center
+    background: url("images/homepage/icon_error.png") no-repeat 206px center
 }
 
 .editable-description.error .input-wrapper {
-    background: url("/aurora/res/mp/themes/aurora/img/icon_error.png") no-repeat 484px center
+    background: url("images/homepage/icon_error.png") no-repeat 484px center
 }
 
 .editable-title.error {
-    background: url("/aurora/res/mp/themes/aurora/img/icon_error.png") no-repeat 600px center
+    background: url("images/homepage/icon_error.png") no-repeat 600px center
 }
 
 .editable-description.error, .editable-title.error .input-wrapper, .editable-shipping-options.error {
@@ -3050,7 +3050,7 @@ input.button.large, button.button.large {
     width: 165px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("/aurora/res/mp/themes/aurora/img/euro.png")
+    background-image: url("images/homepage/euro.png")
 }
 
 .editable-price.error .field {
@@ -3261,12 +3261,12 @@ input.button.large, button.button.large {
 }
 
 .thumb-placeholder.loading {
-    background: url("/aurora/res/mp/themes/aurora/img/icon_loader_small.gif") no-repeat center !important
+    background: url("images/homepage/icon_loader_small.gif") no-repeat center !important
 }
 
 .thumb-placeholder.success {
     border: 1px solid green;
-    background: #ebfbeb url("/aurora/res/mp/themes/aurora/img/icon_success_large.png") no-repeat center !important
+    background: #ebfbeb url("images/homepage/icon_success_large.png") no-repeat center !important
 }
 
 .thumb-placeholder.invalid {
@@ -3320,14 +3320,14 @@ input.button.large, button.button.large {
 }
 
 .image-uploader.loading {
-    background-image: url("/aurora/res/mp/themes/aurora/img/icon_loader_small.gif");
+    background-image: url("images/homepage/icon_loader_small.gif");
     background-position: center center;
     background-repeat: no-repeat
 }
 
 .image-uploader.success {
     border: 1px solid green;
-    background: #ebfbeb url("/aurora/res/mp/themes/aurora/img/icon_success_large.png") no-repeat center
+    background: #ebfbeb url("images/homepage/icon_success_large.png") no-repeat center
 }
 
 .image-uploader.invalid {
@@ -3359,7 +3359,7 @@ input.button.large, button.button.large {
     display: none;
     width: 18px;
     height: 17px;
-    background-image: url("/aurora/res/mp/themes/aurora/img/delete.png")
+    background-image: url("images/homepage/delete.png")
 }
 
 .image-uploader > input[type=file] {
@@ -3491,7 +3491,7 @@ textarea {
     display: inline-block;
     width: 102px;
     height: 31px;
-    background: #fff url("/aurora/res/mp/themes/aurora/img/license-plate.png") no-repeat top left
+    background: #fff url("images/homepage/license-plate.png") no-repeat top left
 }
 
 input.licenseplate {
@@ -3561,7 +3561,7 @@ span.invalid.hint {
     height: 20px;
     vertical-align: middle;
     display: inline-block;
-    background: white url('/aurora/res/mp/themes/aurora/img/icon_error.png') right center no-repeat
+    background: white url('images/homepage/icon_error.png') right center no-repeat
 }
 
 .icon-inside {
@@ -3992,7 +3992,7 @@ span.invalid.hint {
     color: #21479c;
     cursor: pointer;
     text-decoration: none;
-    background: url('/aurora/res/mp/themes/aurora/img/menu-down-arrow-blue.png') right center no-repeat;
+    background: url('images/homepage/menu-down-arrow-blue.png') right center no-repeat;
     padding-right: 12px
 }
 
@@ -4009,7 +4009,7 @@ span.invalid.hint {
 
 #mp-menu.open .label {
     color: #000;
-    background: url('/aurora/res/mp/themes/aurora/img/menu-down-arrow-black.png') right center no-repeat
+    background: url('images/homepage/menu-down-arrow-black.png') right center no-repeat
 }
 
 .image-viewer {
@@ -4042,7 +4042,7 @@ span.invalid.hint {
     -ms-filter: "alpha(opacity=40)";
     filter: alpha(opacity=40);
     zoom: 1;
-    background: url("/aurora/res/mp/themes/aurora/img/icon_loader_small.gif") no-repeat center !important
+    background: url("images/homepage/icon_loader_small.gif") no-repeat center !important
 }
 
 #cookie-opt-in-footer {
